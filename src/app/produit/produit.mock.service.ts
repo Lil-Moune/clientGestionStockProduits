@@ -8,8 +8,8 @@ export class ProduitMockService{
 
   constructor(){
 
-    let p1 : Produit = new Produit('Livre',50,20);
-    let p2 : Produit = new Produit('Cahier',200,5.25);
+    let p1 : Produit = new Produit('Livre1',50,20);
+    let p2 : Produit = new Produit('Cahier56',200,5.25);
     let p3 : Produit = new Produit('Stylo',500,2.10);
     this.PRODUITS.push(p1);
     this.PRODUITS.push(p2);
