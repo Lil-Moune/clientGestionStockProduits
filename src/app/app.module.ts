@@ -31,7 +31,7 @@ import {ProduitService} from './produit/produit.service';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [ProduitMockService,ProduitService],
+  providers: [ProduitMockService, ProduitService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
